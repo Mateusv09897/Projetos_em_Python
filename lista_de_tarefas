@@ -1,0 +1,10 @@
+tarefas = []
+
+def adicionar_tarefa(tarefa):
+    tarefas.append(tarefa)
+    print(f"tarefa {tarefa} adicionada com sucesso!")
+
+    for i in range(len(tarefas)):
+        print(f"{i + 1} tarefas adicionadas: {tarefas[i]}")
+
+adicionar_tarefa("Estudar Python")
